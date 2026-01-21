@@ -14,9 +14,9 @@ Este projeto apresenta uma análise técnica e estratégica da produção agríc
 * **Tratamento de Anomalias:** Limpeza de resíduos de indexação e tratamento de dados ausentes (NaN) para garantir a integridade estatística.
 
 ## 📂 Estrutura do Repositório
-* **[analise_agro.ipynb](analise_agro.ipynb):** Notebook completo com código documentado, tratamento de dados e visualizações.
-* **[yield.csv](yield.csv) / [production.csv](production.csv):** Datasets brutos utilizados na análise (Fonte: Kaggle/IBGE).
-* **Insights Gerenciais:** Seções documentadas dentro do código que traduzem métricas estatísticas em decisões estratégicas de campo.
+* **[analise_agro.ipynb](analise_agro.ipynb):** Notebook principal contendo todo o pipeline de dados.
+* **[Bases de Dados Brutas](yield.csv):** Arquivos originais em CSV utilizados no processamento (devido ao grande volume de dados, o GitHub disponibiliza apenas para download/view raw).
+* **[Resultados e Conclusões](analise_agro.ipynb#-7.-Análise-Estatística-Descritiva):** Seção interna do notebook focada em traduzir métricas técnicas em visão estratégica para o agronegócio.
 
 ---
 *Projeto desenvolvido como parte da preparação técnica para atuação em Ciência de Dados no setor de Agronegócio.*
