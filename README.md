@@ -1,23 +1,22 @@
-# Análise de Produtividade e Produção Agrícola Brasileira (1974-2019)
+# 🌾 Brazilian Crop Yield Analysis: Eficiência e Produção (1974-2019)
 
-Este projeto foi desenvolvido para analisar o histórico da agricultura no Brasil, utilizando técnicas avançadas de manipulação de dados com Python e Pandas.
+Este projeto apresenta uma análise técnica e estratégica da produção agrícola brasileira, simulando um cenário real de inteligência de dados voltado para o Agronegócio. O objetivo foi transformar dados brutos municipais em insights de produtividade e eficiência tecnológica.
 
-## 🎯 Objetivos do Projeto
-* Realizar a reestruturação de dados complexos (formato Wide para Long).
-* Integrar diferentes fontes de dados (Produtividade e Produção Total) via Merge.
-* Identificar os grãos mais produtivos e a evolução tecnológica da cultura do milho.
+## 🛠️ Tecnologias Utilizadas
+* **Python & Pandas:** Reestruturação de matrizes (Melt), Integração de dados (Merge) e tratamento de séries históricas.
+* **Matplotlib:** Visualização de tendências sazonais e rankings de produtividade.
+* **Data Engineering:** Conversão de dados descentralizados (formato Wide) para modelos analíticos (formato Long).
 
-## 🛠️ Tecnologias e Ferramentas
-* **Linguagem:** Python
-* **Bibliotecas:** Pandas, Matplotlib
-* **Ambiente:** Google Colab
+## 📊 Destaques do Projeto
+* **Engenharia de Dados (Melt & Merge):** Processamento de mais de 580.000 registros para integrar métricas de Volume (Produção Total) e Eficiência (Yield) em uma única visão consolidada.
+* **Evolução do Milho (Maize):** Identificação de um salto tecnológico na produtividade do milho, que cresceu de **3.06 t/ha (2011)** para **3.82 t/ha (2019)**.
+* **Análise de Polos Produtores:** Mapeamento dos 10 maiores municípios produtores, destacando a liderança de municípios paranaenses (Castro e Ponta Grossa).
+* **Tratamento de Anomalias:** Limpeza de resíduos de indexação e tratamento de dados ausentes (NaN) para garantir a integridade estatística.
 
-## 📊 Principais Insights
-* **Eficiência Tecnológica:** A produtividade do milho saltou de 3.06 t/ha em 2011 para 3.82 t/ha em 2019.
-* **Consolidação de Dados:** O projeto processou e uniu com sucesso mais de 580.000 registros históricos.
+## 📂 Estrutura do Repositório
+* **[analise_agro.ipynb](https://github.com/Cleverson-Andrade/analise-produtividade-agro-brasil/blob/main/analise_agro.ipynb):** Notebook completo com código documentado e visualizações.
+* **yield.csv / production.csv:** Datasets originais utilizados na análise (Fonte: Kaggle/IBGE).
+* **Insights Gerenciais:** O projeto inclui resumos estatísticos que traduzem código em decisões de campo.
 
-## 📈 Competências Demonstradas
-* Limpeza e tratamento de dados (Data Cleaning)
-* Reestruturação de matrizes (Melt)
-* Integração de bases de dados (Merge/Join)
-* Visualização de dados estatísticos
+---
+*Projeto desenvolvido como parte da preparação técnica para atuação em Ciência de Dados no setor de Agronegócio.*
