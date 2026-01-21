@@ -15,7 +15,7 @@ Este projeto apresenta uma análise técnica e estratégica da produção agríc
 
 ## 📂 Estrutura do Repositório
 * **[analise_agro.ipynb](analise_agro.ipynb):** Notebook principal contendo todo o pipeline de dados.
-* **[Bases de Dados Brutas](yield.csv):** Arquivos originais em CSV utilizados no processamento (devido ao grande volume de dados, o GitHub disponibiliza apenas para download/view raw).
+* **[Bases de Dados Brutas][yield.csv](yield.csv) / [production.csv](production.csv): Datasets brutos utilizados na análise (Fonte: Kaggle/IBGE):** Arquivos originais em CSV utilizados no processamento (devido ao grande volume de dados, o GitHub disponibiliza apenas para download/view raw).
 * **[Resultados e Conclusões](analise_agro.ipynb#-7.-Análise-Estatística-Descritiva):** Seção interna do notebook focada em traduzir métricas técnicas em visão estratégica para o agronegócio.
 
 ---
