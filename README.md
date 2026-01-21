@@ -14,9 +14,9 @@ Este projeto apresenta uma análise técnica e estratégica da produção agríc
 * **Tratamento de Anomalias:** Limpeza de resíduos de indexação e tratamento de dados ausentes (NaN) para garantir a integridade estatística.
 
 ## 📂 Estrutura do Repositório
-* **[analise_agro.ipynb](https://github.com/Cleverson-Andrade/analise-produtividade-agro-brasil/blob/main/analise_agro.ipynb):** Notebook completo com código documentado e visualizações.
-* **yield.csv / production.csv:** Datasets originais utilizados na análise (Fonte: Kaggle/IBGE).
-* **Insights Gerenciais:** O projeto inclui resumos estatísticos que traduzem código em decisões de campo.
+* **[analise_agro.ipynb](analise_agro.ipynb):** Notebook completo com código documentado, tratamento de dados e visualizações.
+* **[yield.csv](yield.csv) / [production.csv](production.csv):** Datasets brutos utilizados na análise (Fonte: Kaggle/IBGE).
+* **Insights Gerenciais:** Seções documentadas dentro do código que traduzem métricas estatísticas em decisões estratégicas de campo.
 
 ---
 *Projeto desenvolvido como parte da preparação técnica para atuação em Ciência de Dados no setor de Agronegócio.*
