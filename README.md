@@ -23,7 +23,6 @@ This project presents a strategic analysis of Brazilian agricultural production,
 ### 📂 Repository Structure
 - 📄 [analise_agro.ipynb](./analise_agro.ipynb): Main notebook containing the full data pipeline.
 - 📊 [yield.csv](./yield.csv) / [production.csv](./production.csv): Original datasets (Large files, optimized for Raw view).
-- 📈 [evolucao_milho.png](./evolucao_milho.png): Exported visualization of maize productivity trends.
 
 ---
 
@@ -46,7 +45,6 @@ Este projeto apresenta uma análise técnica e estratégica da produção agríc
 ### 📂 Estrutura do Repositório
 - 📄 [analise_agro.ipynb](./analise_agro.ipynb): Notebook principal contendo todo o pipeline de dados.
 - 📊 [yield.csv](./yield.csv) / [production.csv](./production.csv): Bases de dados brutas utilizadas no processamento.
-- 📈 [evolucao_milho.png](./evolucao_milho.png): Visualização exportada da tendência do milho.
 
 ---
 👤 **Author:** Cleverson Moura Andrade
